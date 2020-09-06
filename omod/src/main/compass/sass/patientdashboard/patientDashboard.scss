@@ -1,0 +1,216 @@
+@import "variables";
+@import "reference";
+
+.ui-tabs-active {
+  padding-bottom: 24px !important;
+}
+
+.tabs {
+  min-height: 300px;
+}
+
+.dashboard-container {
+    display: inline-block;
+    width: 100%;
+    min-height: 30%;
+    margin-top: -20px;
+
+  .contact-info {
+    ul li {
+      padding: 10px 5px;
+      border-bottom: 1px solid #EEE;
+
+      strong {
+        display: inline-block;
+        width: 120px;
+      }
+    }
+  }
+
+  #visits {
+    padding: 10px 0;
+  }
+
+  .no-results {
+    padding: 6px;
+  }
+}
+
+div {
+  aside {
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+    width: 23%;
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+
+.encounterview {
+  border: none;
+  position: relative;
+  overflow: hidden;
+  background: #f9f9f9;
+  @include transition-property(height);
+  @include transition-duration(0.35s);
+  @include transition-timing-function(ease);
+
+  small, htmlform h3, htmlform label {
+    margin-right: 10px;
+    color: #666;
+  }
+
+  span, htmlform p {
+    color: $highlight;
+    font-size: 0.95em;
+  }
+
+  fieldset {
+      border: 0;
+      padding: 0;
+      margin: 0;
+  }
+
+  p, htmlform fieldset {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+
+    &:last-of-type {
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  legend, #no-calculated-bmi, #calculated-bmi-wrapper, .title, .emptyValue, .emptyValue~.units {
+    display: none;
+  }
+
+  .title {
+    display: block;
+    color: $highlight;
+    font-family: "OpenSans";
+  }
+
+  .encounter-summary-container {
+    padding: 15px;
+    border: 1px solid #ccc;
+    min-height: 30px;
+  }
+
+  &.in {
+    height: auto;
+  }
+
+  htmlform {
+    h3, label {
+      font-size: 0.8em;
+      font-weight: normal;
+      display: inline-block;
+      margin: 0;
+    }
+
+    p {
+      display: block;
+
+      span {
+        font-size: 1em;
+      }
+
+      span.value {
+        &:not(:first-of-type):before {
+          content: ", ";
+        }
+      }
+
+      span.emptyValue~span.value {
+        &:before {
+          content: "";
+        }
+      }
+    }
+
+    strong {
+      font-family: "OpenSans";
+      display: block;
+      padding: 10px;
+    }
+
+    fieldset h3~p {
+      display: inline-block;
+    }
+
+    .left {
+      float: none;
+      border: none;
+    }
+  }
+}
+
+#radiologyTab {
+  padding-left: 10px 0; 
+}
+
+.radiology-report {
+  display: inline-block;
+  padding-top: 10px;
+
+  h6 {
+    font-size: 1em;
+  }
+}
+
+#past-visit-dates {
+  font-size: 1em;
+}
+
+.report-value {
+  color: lighten($highlight, 15%);
+}
+
+#visits-list {
+  border-left: 1px solid #cccccc !important;
+  
+  &.viewVisitDetails{
+    width: unset !important;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  .button.activelist{
+    min-width: 218px !important;
+  }
+}
+
+@media only screen and (max-width : 576px) and (min-width : 411px)  {
+  .button.activelist{
+    min-width: 139px !important;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width : 410px) and (min-width : 375px)  {
+  .button.activelist{
+    min-width: 117px !important;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width : 374px)  {
+  .button.activelist{
+    min-width: 97px !important;
+    height: 44px;
+  }
+
+  .actioncog {
+    margin-right: -13px;
+    width: 39px;
+    height: 41px;
+  }
+}
+
+.icon-calendar{
+  position: inherit !important;
+}
