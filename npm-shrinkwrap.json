@@ -15,11 +15,15 @@
         "angular-translate-loader-url": "~2.15.1"
       },
       "dependencies": {
-        "angular":{
-          "version": "1.6.1" 
+        "angular": {
+          "version": "1.6.1",
+          "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz",
+          "integrity": "sha1-p7bXY6dMFXMlaSYZ6XJX5p2baic="
         },
         "angular-resource": {
-          "version":"1.6.1"
+          "version": "1.6.1",
+          "resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.6.1.tgz",
+          "integrity": "sha1-nu6oxZI4Q5uhWtMb4Otw8kQvd6E="
         }
       }
     },
@@ -120,7 +124,8 @@
     },
     "angular": {
       "version": "1.6.1",
-      "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz"
+      "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz",
+      "integrity": "sha512-YnsSkFjIeEIwOZYtLzeQv/xslZl9FUXaqFlWIqmfMYmeECF8hFNLu05hQMyRlnxxRwFsa/H/eXifxamBKiQNgQ=="
     },
     "angular-animate": {
       "version": "1.5.8",
@@ -2460,9 +2465,9 @@
       "dev": true
     },
     "copy-webpack-plugin": {
-      "version": "2.1.3",
-      "resolved": "https://registry.npmjs.org/copy-webpack-plugin/-/copy-webpack-plugin-2.1.3.tgz",
-      "integrity": "sha1-1F5lOCSATRH+GUxeIQMxX8KWAjs=",
+      "version": "2.1.6",
+      "resolved": "https://registry.npmjs.org/copy-webpack-plugin/-/copy-webpack-plugin-2.1.6.tgz",
+      "integrity": "sha1-T4jDiPzq8rerC7I5x9YiLIKcn2A=",
       "dev": true,
       "requires": {
         "bluebird": "^2.10.2",
@@ -5742,9 +5747,9 @@
       },
       "dependencies": {
         "graceful-fs": {
-          "version": "4.1.15",
-          "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.15.tgz",
-          "integrity": "sha1-/7cD4QZuig7qpMi4C6klPu77+wA=",
+          "version": "4.2.4",
+          "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.4.tgz",
+          "integrity": "sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==",
           "dev": true
         }
       }
