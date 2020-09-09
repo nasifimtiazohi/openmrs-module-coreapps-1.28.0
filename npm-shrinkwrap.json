@@ -15,11 +15,15 @@
         "angular-translate-loader-url": "~2.15.1"
       },
       "dependencies": {
-        "angular":{
-          "version": "1.6.1" 
+        "angular": {
+          "version": "1.6.1",
+          "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz",
+          "integrity": "sha1-p7bXY6dMFXMlaSYZ6XJX5p2baic="
         },
         "angular-resource": {
-          "version":"1.6.1"
+          "version": "1.6.1",
+          "resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.6.1.tgz",
+          "integrity": "sha1-nu6oxZI4Q5uhWtMb4Otw8kQvd6E="
         }
       }
     },
@@ -120,7 +124,8 @@
     },
     "angular": {
       "version": "1.6.1",
-      "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz"
+      "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz",
+      "integrity": "sha512-YnsSkFjIeEIwOZYtLzeQv/xslZl9FUXaqFlWIqmfMYmeECF8hFNLu05hQMyRlnxxRwFsa/H/eXifxamBKiQNgQ=="
     },
     "angular-animate": {
       "version": "1.5.8",
@@ -2239,9 +2244,9 @@
       }
     },
     "compass-mixins": {
-      "version": "0.12.7",
-      "resolved": "https://registry.npmjs.org/compass-mixins/-/compass-mixins-0.12.7.tgz",
-      "integrity": "sha1-Kw8kI6VhjnVnitmuK7K4Xqw2cOM=",
+      "version": "0.12.10",
+      "resolved": "https://registry.npmjs.org/compass-mixins/-/compass-mixins-0.12.10.tgz",
+      "integrity": "sha1-zZ8V+CnE6WDMQ7sibwSbKL65nUE=",
       "dev": true
     },
     "compass-node": {
