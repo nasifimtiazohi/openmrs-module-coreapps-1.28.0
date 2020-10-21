@@ -15,11 +15,15 @@
         "angular-translate-loader-url": "~2.15.1"
       },
       "dependencies": {
-        "angular":{
-          "version": "1.6.1" 
+        "angular": {
+          "version": "1.6.1",
+          "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz",
+          "integrity": "sha1-p7bXY6dMFXMlaSYZ6XJX5p2baic="
         },
         "angular-resource": {
-          "version":"1.6.1"
+          "version": "1.6.1",
+          "resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.6.1.tgz",
+          "integrity": "sha1-nu6oxZI4Q5uhWtMb4Otw8kQvd6E="
         }
       }
     },
@@ -120,12 +124,13 @@
     },
     "angular": {
       "version": "1.6.1",
-      "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz"
+      "resolved": "https://registry.npmjs.org/angular/-/angular-1.6.1.tgz",
+      "integrity": "sha512-YnsSkFjIeEIwOZYtLzeQv/xslZl9FUXaqFlWIqmfMYmeECF8hFNLu05hQMyRlnxxRwFsa/H/eXifxamBKiQNgQ=="
     },
     "angular-animate": {
-      "version": "1.5.8",
-      "resolved": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.5.8.tgz",
-      "integrity": "sha1-U19zaSJaun+xW/cTTHGxW8Y1xYY="
+      "version": "1.8.2",
+      "resolved": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.8.2.tgz",
+      "integrity": "sha512-Jbr9+grNMs9Kj57xuBU3Ju3NOPAjS1+g2UAwwDv7su1lt0/PLDy+9zEwDiu8C8xJceoTbmBNKiWGPJGBdCQLlA=="
     },
     "angular-chart.js": {
       "version": "1.1.1",
@@ -148,15 +153,15 @@
       }
     },
     "angular-mocks": {
-      "version": "1.5.8",
-      "resolved": "https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.5.8.tgz",
-      "integrity": "sha1-LpOZBWZp8oamgTlrw1rg18XHDRY=",
+      "version": "1.8.2",
+      "resolved": "https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.8.2.tgz",
+      "integrity": "sha512-I5L3P0l21HPdVsP4A4qWmENt4ePjjbkDFdAzOaM7QiibFySbt14DptPbt2IjeG4vFBr4vSLbhIz8Fk03DISl8Q==",
       "dev": true
     },
     "angular-resource": {
-      "version": "1.5.8",
-      "resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.5.8.tgz",
-      "integrity": "sha1-q/ZN6kca7EKWr/CkVc48YM15vZ8="
+      "version": "1.8.2",
+      "resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.8.2.tgz",
+      "integrity": "sha512-CbTu8ypkVZMBLm+Wd+jI9xR7QEVCeUgN8WXsr9Yi9l0s/8ZQa5kEIuYX3F/75Ej8Xs1Jp9DoKjAyvACI6Q8IJA=="
     },
     "angular-translate": {
       "version": "2.15.2",
